@@ -14,7 +14,7 @@ body {
 /* navbar  */
 
 nav {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 9999;
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(234, 234, 234);
+    color: rgb(229, 59, 59);
 }
 
 nav ul li.closeNav {
@@ -73,112 +73,11 @@ nav .navbar #menuToogle {
 /* akhir navbar  */
 
 
-/* hero  */
-
-.hero {
-    background-image: url(img/landingpage1.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-position: center top;
-    background-position-x: center;
-    overflow-x: hidden;
-}
-
-.hero .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    /* background-color: #c00d16; */
-}
-
-.hero .container .judul h1 {
-    color: aliceblue;
-    font-size: 70px;
-    font-family: 'Noto Serif', serif;
-    text-shadow: 1px 1px 1px rgba(249, 97, 97, 0.5);
-}
-
-.hero .container .judul {
-    transform: translateX(-600px);
-    opacity: 0;
-}
-
-.hero .container .judul.muncul {
-    transform: translateX(0px);
-    opacity: 1;
-    transition: ease 1.4s;
-}
-
-.hero .container .deksripsi {
-    width: 50%;
-    transform: translateX(600px);
-    opacity: 0;
-}
-
-.hero .container .deksripsi.muncul {
-    transform: translateX(0px);
-    opacity: 1;
-    transition: ease 1.4s;
-}
-
-.hero .container .deksripsi p {
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px rgba(249, 97, 97, 0.5);
-    text-align: center;
-    margin-top: 14px;
-    font-size: 14px;
-}
-
-.hero .container .sosmed {
-    margin-top: 16px;
-    display: flex;
-    text-decoration: none;
-}
-
-.hero .container .sosmed a {
-    margin-right: 8px;
-}
-
-.hero .container .sosmed a:hover {
-    transform: translateY(-6px);
-    transition: ease 0.3s;
-}
-
-.hero .container .sosmed a svg {
-    filter: drop-shadow(1px 1px 6px rgba(255, 255, 255, 0.8));
-}
-
-
-/* akhir hero */
-
-
 /* responsive  */
 
 @media (max-width: 992px) {
     nav .navbar ul {
         width: 50%;
-    }
-    .hero .container .judul h1 {
-        font-size: 90px;
-    }
-    .hero .container .deksripsi {
-        width: 80%;
-    }
-    .hero .container .deksripsi p {
-        font-size: 20px;
-    }
-    .hero .container .sosmed a svg {
-        width: 34px;
-        height: 34px;
     }
 }
 
@@ -219,19 +118,6 @@ nav .navbar #menuToogle {
     nav ul li.closeNav {
         display: flex;
     }
-    .hero .container .judul h1 {
-        font-size: 90px;
-    }
-    .hero .container .deksripsi {
-        width: 80%;
-    }
-    .hero .container .deksripsi p {
-        font-size: 18px;
-    }
-    .hero .container .sosmed a svg {
-        width: 29px;
-        height: 29px;
-    }
 }
 
 @media (max-width: 576px) {
@@ -270,18 +156,5 @@ nav .navbar #menuToogle {
     }
     nav ul li.closeNav {
         display: flex;
-    }
-    .hero .container .judul h1 {
-        font-size: 60px;
-    }
-    .hero .container .deksripsi {
-        width: 90%;
-    }
-    .hero .container .deksripsi p {
-        font-size: 12px;
-    }
-    .hero .container .sosmed a svg {
-        width: 20px;
-        height: 20px;
     }
 }
