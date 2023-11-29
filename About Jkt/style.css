@@ -123,7 +123,7 @@ section.about1 .container .deksripsi h4 {
     text-align: center;
     font-weight: bold !important;
     color: #2d2d2d;
-    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.6);
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
 }
 
 section.about1 .container .deksripsi p {
@@ -179,7 +179,7 @@ section.about1 .container .deksripsi p {
         width: 80%;
         justify-content: left;
         align-items: flex-start;
-        background-color: #c00d16;
+        background-color: #d8212a;
         transition: ease 0.6s;
     }
     nav ul li a.active {
@@ -225,7 +225,7 @@ section.about1 .container .deksripsi p {
         align-self: center;
     }
     section.about1 .container .deksripsi p {
-        font-size: 1.5vw;
+        font-size: 1.7vw;
         text-align: left;
         width: 70%;
         font-weight: 200;
@@ -246,7 +246,6 @@ section.about1 .container .deksripsi p {
         width: 80%;
         justify-content: left;
         align-items: flex-start;
-        background-color: #c00d16;
         transition: ease 0.6s;
     }
     nav ul li a:hover {
@@ -284,11 +283,11 @@ section.about1 .container .deksripsi p {
     }
     section.about1 .container .deksripsi h4 {
         margin-bottom: 10px;
-        font-size: 8.2vw;
+        font-size: 8.9vw;
         align-self: center;
     }
     section.about1 .container .deksripsi p {
-        font-size: 2.7vw;
+        font-size: 3vw;
         align-self: center;
         width: 100%;
         font-weight: 200;
