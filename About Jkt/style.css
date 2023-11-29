@@ -5,9 +5,9 @@
 
 body {
     overflow-x: hidden;
-    overflow: hidden;
     width: 100vw;
     height: 100vh;
+    background-color: rgb(244, 244, 244);
 }
 
 
@@ -19,6 +19,7 @@ nav {
     position: fixed;
     z-index: 9999;
     width: 100%;
+    margin-bottom: 20vh;
 }
 
 nav .navbar {
@@ -39,6 +40,10 @@ nav .navbar ul {
 nav ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+nav ul li a.active {
+    color: rgb(229, 59, 59);
 }
 
 nav ul li a:hover {
@@ -71,6 +76,34 @@ nav .navbar #menuToogle {
 
 
 /* akhir navbar  */
+
+
+/* about 1 */
+
+section.about1 {
+    position: relative;
+    padding-top: 26vh;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.about1 .container {
+    display: flex;
+}
+
+section.about1 .container .img {
+    flex: 0 0 58.333333%;
+    margin-right: 30px;
+}
+
+section.about1 .container .img img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+/* akhir about 1 */
 
 
 /* responsive  */
