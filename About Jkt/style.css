@@ -86,6 +86,8 @@ section.about1 {
     overflow-x: hidden;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 12px rgba(118, 118, 118, 0.5);
 }
 
 section.about1 .container {
@@ -97,22 +99,39 @@ section.about1 .container .img {
     margin-right: 30px;
     overflow: hidden;
     border-radius: 30px 30px;
-}
-
-section.about1 .container .img {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    transform: translateX(-500px);
+    opacity: 0;
+    transition: ease 1.3s;
+}
+
+section.about1 .container .img.muncul {
+    transform: translateX(0px);
+    opacity: 1;
 }
 
 section.about1 .container .img img {
     width: 100%;
     height: 100%;
     transition: ease 0.9s;
+    transform: scale(1.1);
 }
 
 section.about1 .container .img:hover img {
-    transform: scale(1.2);
+    transform: scale(1.3);
+}
+
+section.about1 .container .deksripsi {
+    transform: translateX(500px);
+    opacity: 0;
+    transition: ease 1.3s;
+}
+
+section.about1 .container .deksripsi.muncul {
+    transform: translateX(0px);
+    opacity: 1;
 }
 
 section.about1 .container .deksripsi h4 {
@@ -138,30 +157,296 @@ section.about1 .container .deksripsi p {
 /* akhir about 1 */
 
 
+/* about 2  */
+
+section.about2 {
+    position: relative;
+    padding-top: 100px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 12px rgba(118, 118, 118, 0.5);
+}
+
+section.about2 .container {
+    display: flex;
+}
+
+section.about2 .container .img {
+    flex: 0 0 55.333333%;
+    overflow: hidden;
+    border-radius: 30px 30px;
+    margin-left: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section.about2 .container .img img {
+    width: 100%;
+    height: 100%;
+    transition: ease 0.9s;
+    transform: scale(1.1);
+}
+
+section.about2 .container .img:hover img {
+    transform: scale(1.3);
+}
+
+section.about2 .container .deksripsi h4 {
+    font-family: 'Kaushan Script', cursive;
+    /* margin-top: 3px; */
+    margin-bottom: 10px;
+    font-size: 3.8vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.about2 .container .deksripsi p {
+    font-size: 0.97vw;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    /* text-align: justify; */
+}
+
+
+/* akhir about 2  */
+
+
+/* about 3 */
+
+section.about3 {
+    position: relative;
+    padding-top: 120px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 12px rgba(118, 118, 118, 0.5);
+}
+
+section.about3 .container {
+    display: flex;
+}
+
+section.about3 .container .story1 {
+    flex: 0 0 30%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section.about3 .container .story1 .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section.about3 .container .story1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+section.about3 .container .story1 .deksripsi {
+    margin-top: 10px;
+}
+
+section.about3 .container .story1 .deksripsi h4 {
+    font-family: 'Kaushan Script', cursive;
+    /* margin-top: 3px; */
+    margin-bottom: 10px;
+    font-size: 3.2vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.about3 .container .story1 .deksripsi p {
+    font-size: 0.97vw;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+section.about3 .container .story2 {
+    flex: 0 0 40%;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+}
+
+section.about3 .container .story2 .arrowRight {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+section.about3 .container .story2 .arrowRight svg.svgBottom {
+    display: none;
+}
+
+section.about3 .container .story3 {
+    flex: 0 0 30%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: ease-in 1.2s;
+}
+
+section.about3 .container .story3.muncul {
+    opacity: 1;
+}
+
+section.about3 .container .story3 .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section.about3 .container .story3 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+section.about3 .container .story3 .deksripsi {
+    margin-top: 10px;
+}
+
+section.about3 .container .story3 .deksripsi h4 {
+    font-family: 'Kaushan Script', cursive;
+    /* margin-top: 3px; */
+    margin-bottom: 10px;
+    font-size: 3.2vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.about3 .container .story3 .deksripsi p {
+    font-size: 0.97vw;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+
+/* akhir about 3  */
+
+
 /* responsive  */
 
 @media (max-width: 992px) {
     nav .navbar ul {
         width: 50%;
     }
+    /* about 1 */
     section.about1 {
-        padding-top: 160px;
+        padding-top: 150px;
+    }
+    section.about1 .container {
+        flex-direction: column;
     }
     section.about1 .container .img {
-        flex: 0 0 50%;
-        max-width: 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
     }
-    section.about1 .container .img {
-        flex: 0 0 50%;
-        margin-right: 30px;
+    section.about1 .container .deksripsi {
+        display: flex;
     }
     section.about1 .container .deksripsi h4 {
         margin-bottom: 10px;
-        font-size: 3.3vw;
+        font-size: 9.3vw;
+        align-self: center;
     }
     section.about1 .container .deksripsi p {
-        font-size: 0.96vw;
+        font-size: 1.7vw;
+        text-align: left;
+        width: 70%;
         font-weight: 200;
+    }
+    /* about 2 */
+    section.about2 {
+        padding-top: 80px;
+    }
+    section.about2 .container {
+        flex-direction: column;
+    }
+    section.about2 .container .img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    section.about2 .container .deksripsi {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    section.about2 .container .deksripsi h4 {
+        margin-bottom: 10px;
+        font-size: 8.2vw;
+        width: 52%;
+        margin-right: 50px;
+        align-self: center;
+        overflow-x: hidden;
+    }
+    section.about2 .container .deksripsi p {
+        font-size: 1.6vw;
+        text-align: left;
+        width: 70%;
+        font-weight: 200;
+    }
+    /* about 3 */
+    section.about3 .container .story1 .deksripsi h4 {
+        font-family: 'Kaushan Script', cursive;
+        /* margin-top: 3px; */
+        margin-bottom: 10px;
+        font-size: 3.6vw;
+        text-align: center;
+    }
+    section.about3 .container .story1 .deksripsi p {
+        font-size: 1vw;
+        font-weight: 200;
+        text-align: center;
+    }
+    section.about3 .container .story2 .arrowRight {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        cursor: pointer;
+    }
+    section.about3 .container .story2 .arrowRight svg {
+        height: 6vh;
+        width: 6vh;
+    }
+    section.about3 .container .story3 .deksripsi h4 {
+        font-family: 'Kaushan Script', cursive;
+        /* margin-top: 3px; */
+        margin-bottom: 10px;
+        font-size: 3.6vw;
+        text-align: center;
+    }
+    section.about3 .container .story3 .deksripsi p {
+        font-size: 1vw;
+        font-weight: 200;
+        text-align: center;
     }
 }
 
@@ -230,6 +515,123 @@ section.about1 .container .deksripsi p {
         width: 70%;
         font-weight: 200;
     }
+    section.about2 .container .deksripsi h4 {
+        margin-right: 30px;
+    }
+    /* about 3  */
+    section.about3 {
+        position: relative;
+        padding-top: 100px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+    section.about3 .container {
+        display: flex;
+        flex-direction: column;
+    }
+    section.about3 .container .story1 {
+        flex: 0 0 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.about3 .container .story1 .img {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    section.about3 .container .story1 img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1);
+    }
+    section.about3 .container .story1 .deksripsi {
+        margin-top: 20px;
+        width: 85%;
+    }
+    section.about3 .container .story1 .deksripsi h4 {
+        font-family: 'Kaushan Script', cursive;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 6.2vw;
+        text-align: center;
+        font-weight: bold !important;
+        color: #2d2d2d;
+        text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.about3 .container .story1 .deksripsi p {
+        font-size: 2.3vw;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    section.about3 .container .story2 {
+        flex: 0 0 100%;
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    section.about3 .container .story2 .arrowRight {
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+    section.about3 .container .story2 .arrowRight svg.svgBottom {
+        display: block;
+    }
+    section.about3 .container .story2 .arrowRight svg.svgRight {
+        display: none;
+    }
+    section.about3 .container .story3 {
+        margin-top: 90px;
+        flex: 0 0 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.about3 .container .story3 .img {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    section.about3 .container .story3 img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1);
+    }
+    section.about3 .container .story3 .deksripsi {
+        margin-top: 10px;
+        width: 85%;
+    }
+    section.about3 .container .story3 .deksripsi h4 {
+        font-family: 'Kaushan Script', cursive;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 6.2vw;
+        text-align: center;
+        font-weight: bold !important;
+        color: #2d2d2d;
+        text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.about3 .container .story3 .deksripsi p {
+        font-size: 2.3vw;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
@@ -268,6 +670,7 @@ section.about1 .container .deksripsi p {
     nav ul li.closeNav {
         display: flex;
     }
+    /* about 1 */
     section.about1 {
         padding-top: 130px;
     }
@@ -291,5 +694,141 @@ section.about1 .container .deksripsi p {
         align-self: center;
         width: 100%;
         font-weight: 200;
+    }
+    /* about 2 */
+    section.about2 {
+        padding-top: 50px;
+    }
+    section.about2 .container .img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    section.about2 .container .deksripsi {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    section.about2 .container .deksripsi h4 {
+        margin-bottom: 10px;
+        font-size: 9vw;
+        align-self: center;
+        width: 100%;
+        margin: 0px 0px 18px 0px;
+    }
+    section.about2 .container .deksripsi p {
+        font-size: 3.5vw;
+        align-self: center;
+        width: 100%;
+        font-weight: 200;
+    }
+    /* about 3  */
+    section.about3 {
+        position: relative;
+        padding-top: 50px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+    section.about3 .container {
+        display: flex;
+        flex-direction: column;
+    }
+    section.about3 .container .story1 {
+        flex: 0 0 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.about3 .container .story1 .img {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    section.about3 .container .story1 img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1);
+    }
+    section.about3 .container .story1 .deksripsi {
+        margin-top: 10px;
+        width: 85%;
+    }
+    section.about3 .container .story1 .deksripsi h4 {
+        font-family: 'Kaushan Script', cursive;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 8vw;
+        text-align: center;
+        font-weight: bold !important;
+        color: #2d2d2d;
+        text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.about3 .container .story1 .deksripsi p {
+        font-size: 2.8vw;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    section.about3 .container .story2 {
+        flex: 0 0 100%;
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    section.about3 .container .story2 .arrowRight {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    section.about3 .container .story3 {
+        margin-top: 50px;
+        flex: 0 0 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.about3 .container .story3 .img {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    section.about3 .container .story3 img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1);
+    }
+    section.about3 .container .story3 .deksripsi {
+        margin-top: 10px;
+        width: 85%;
+    }
+    section.about3 .container .story3 .deksripsi h4 {
+        font-family: 'Kaushan Script', cursive;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 8vw;
+        text-align: center;
+        font-weight: bold !important;
+        color: #2d2d2d;
+        text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.about3 .container .story3 .deksripsi p {
+        font-size: 2.8vw;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        text-align: center;
     }
 }
