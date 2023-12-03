@@ -349,6 +349,67 @@ section.about3 .container .story3 .deksripsi p {
 /* akhir about 3  */
 
 
+/* about 4 */
+
+section.about4 {
+    position: relative;
+    padding-top: 80px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 12px rgba(118, 118, 118, 0.5);
+}
+
+section.about4 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.about4 .container h4 {
+    font-family: 'Kaushan Script', cursive;
+    /* margin-top: 3px; */
+    margin-bottom: 10px;
+    font-size: 4.5vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.about4 .container .data {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section.about4 .container .data tr td {
+    padding: 10px;
+}
+
+section.about4 .container .data .headTable {
+    background-color: #b2b2b2;
+    font-weight: 800;
+}
+
+section.about4 .container p {
+    margin-top: 20px;
+}
+
+section.about4 .container p a {
+    font-size: 0.97vw;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+
+/* akhir about 4 */
+
+
 /* responsive  */
 
 @media (max-width: 992px) {
@@ -447,6 +508,12 @@ section.about3 .container .story3 .deksripsi p {
         font-size: 1vw;
         font-weight: 200;
         text-align: center;
+    }
+    section.about4 .container h4 {
+        font-size: 5.5vw;
+    }
+    section.about4 .container p a {
+        font-size: 1.3vw;
     }
 }
 
@@ -632,6 +699,12 @@ section.about3 .container .story3 .deksripsi p {
         font-family: 'Literata', serif;
         text-align: center;
     }
+    section.about4 .container h4 {
+        font-size: 5.9vw;
+    }
+    section.about4 .container p a {
+        font-size: 1.5vw;
+    }
 }
 
 @media (max-width: 576px) {
@@ -764,14 +837,14 @@ section.about3 .container .story3 .deksripsi p {
         font-family: 'Kaushan Script', cursive;
         margin-top: 5px;
         margin-bottom: 10px;
-        font-size: 8vw;
+        font-size: 8.4vw;
         text-align: center;
         font-weight: bold !important;
         color: #2d2d2d;
         text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
     }
     section.about3 .container .story1 .deksripsi p {
-        font-size: 2.8vw;
+        font-size: 3vw;
         font-weight: 200;
         color: #7c7c7c;
         font-family: 'Literata', serif;
@@ -818,17 +891,32 @@ section.about3 .container .story3 .deksripsi p {
         font-family: 'Kaushan Script', cursive;
         margin-top: 5px;
         margin-bottom: 10px;
-        font-size: 8vw;
+        font-size: 8.4vw;
         text-align: center;
         font-weight: bold !important;
         color: #2d2d2d;
         text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
     }
     section.about3 .container .story3 .deksripsi p {
-        font-size: 2.8vw;
+        font-size: 3vw;
         font-weight: 200;
         color: #7c7c7c;
         font-family: 'Literata', serif;
         text-align: center;
+    }
+    section.about4 {
+        position: relative;
+        padding-top: 70px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        box-shadow: 2px 2px 12px rgba(118, 118, 118, 0.5);
+    }
+    section.about4 .container h4 {
+        font-size: 8vw;
+    }
+    section.about4 .container p a {
+        font-size: 3vw;
     }
 }
