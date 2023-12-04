@@ -410,6 +410,67 @@ section.about4 .container p a {
 /* akhir about 4 */
 
 
+/* about 5  */
+
+section.about5 {
+    position: relative;
+    padding-top: 80px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 12px rgba(118, 118, 118, 0.5);
+}
+
+section.about5 .container h4 {
+    font-family: 'Kaushan Script', cursive;
+    /* margin-top: 3px; */
+    margin-bottom: 10px;
+    font-size: 4.7vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.about5 .container .galeri {
+    width: 95%;
+    margin: 60px auto 50px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+    cursor: pointer;
+}
+
+section.about5 .container .galeri li {
+    overflow: hidden;
+}
+
+section.about5 .container .galeri li img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: ease 0.7s;
+}
+
+section.about5 .container .galeri li img:hover {
+    transform: scale(1.4);
+}
+
+section.about5 .container p {
+    font-size: 0.9vw;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+
+/* akhir about 5 */
+
+
 /* responsive  */
 
 @media (max-width: 992px) {
@@ -514,6 +575,32 @@ section.about4 .container p a {
     }
     section.about4 .container p a {
         font-size: 1.3vw;
+    }
+    /* about 5  */
+    section.about5 {
+        position: relative;
+        padding-top: 60px;
+    }
+    section.about5 .container h4 {
+        font-family: 'Kaushan Script', cursive;
+        /* margin-top: 3px; */
+        margin-bottom: 10px;
+        font-size: 6vw;
+        text-align: center;
+        font-weight: bold !important;
+        color: #2d2d2d;
+        text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.about5 .container p {
+        font-size: 2vw;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    section.about5 .container p svg {
+        width: 1.5vw;
+        height: 1.5vw;
     }
 }
 
@@ -918,5 +1005,35 @@ section.about4 .container p a {
     }
     section.about4 .container p a {
         font-size: 3vw;
+    }
+    /* about 5  */
+    section.about5 {
+        position: relative;
+        padding-top: 50px;
+    }
+    section.about5 .container h4 {
+        font-family: 'Kaushan Script', cursive;
+        /* margin-top: 3px; */
+        margin-bottom: 10px;
+        font-size: 8vw;
+        text-align: center;
+        font-weight: bold !important;
+        color: #2d2d2d;
+        text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.about5 .container .galeri {
+        width: 100%;
+        margin: 60px auto 20px;
+    }
+    section.about5 .container p {
+        font-size: 2vw;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    section.about5 .container p svg {
+        width: 1.5vw;
+        height: 1.5vw;
     }
 }
