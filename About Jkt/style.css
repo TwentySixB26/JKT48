@@ -1111,14 +1111,14 @@ footer .container p {
         background-color: #3d3d3d;
     }
     footer .container p {
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-weight: 200;
         color: #aeaeae;
         font-family: 'Literata', serif;
         text-align: center;
     }
     footer .container p svg {
-        width: 1.4vw;
-        height: 1.4vw;
+        width: 1.8vw;
+        height: 1.8vw;
     }
 }
