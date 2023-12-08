@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 244, 244);
+}
+
+
+/* navbar  */
+
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px rgba(155, 155, 155, 0.6);
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    margin-bottom: 20vh;
+}
+
+nav .navbar {
+    display: flex;
+    padding: 17px 0px;
+    justify-content: space-around;
+    color: black;
+}
+
+nav .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a.active {
+    color: rgb(229, 59, 59);
+}
+
+nav ul li a:hover {
+    color: rgb(229, 59, 59);
+}
+
+nav ul li.closeNav {
+    display: none;
+    cursor: pointer;
+}
+
+nav .navbar .logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+nav .navbar .logo h4 {
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+nav .navbar #menuToogle {
+    display: none;
+    align-items: center;
+}
+
+
+/* akhir navbar  */
+
+
+/* member  */
+
+section.member {
+    position: relative;
+    padding-top: 130px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+section.member .container .isi h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.member .container .isi2 {
+    margin-top: 50px;
+}
+
+section.member .container .isi2 ul {
+    width: 90%;
+    margin: 60px auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-gap: 23px 19px;
+}
+
+section.member .container .isi2 ul li {
+    margin-bottom: 10px;
+}
+
+section.member .container .isi2 ul li div img {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px rgba(118, 118, 118, 0.7);
+}
+
+section.member .container .isi2 ul li div h4 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #5f0707;
+    font-size: 14px;
+}
+
+
+/* akhir member  */
+
+
+/* train member  */
+
+section.trainMember {
+    position: relative;
+    padding-top: 10px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+section.trainMember .container .isi h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+}
+
+section.trainMember .container .isi2 {
+    margin-top: 50px;
+}
+
+section.trainMember .container .isi2 ul {
+    width: 90%;
+    margin: 60px auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-gap: 23px 19px;
+}
+
+section.trainMember .container .isi2 ul li {
+    margin-bottom: 10px;
+}
+
+section.trainMember .container .isi2 ul li div img {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px rgba(118, 118, 118, 0.7);
+}
+
+section.trainMember .container .isi2 ul li div h4 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #5f0707;
+    font-size: 14px;
+}
+
+
+/* akhir train member  */
+
+
+/* footer  */
+
+footer {
+    position: relative;
+    padding-top: 15px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #3d3d3d;
+}
+
+footer .container p {
+    font-size: 0.75vw;
+    font-weight: 200;
+    color: #aeaeae;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+
+/* akhir footer  */
+
+
+/* responsive  */
+
+@media (max-width: 992px) {
+    /* navbar  */
+    nav .navbar ul {
+        width: 50%;
+    }
+    /* footer  */
+    footer {
+        position: relative;
+        padding-top: 19px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 19px;
+        background-color: #3d3d3d;
+    }
+    footer .container p {
+        font-size: 1.2vw;
+        font-weight: 200;
+        color: #aeaeae;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    footer .container p svg {
+        width: 1vw;
+        height: 1vw;
+    }
+    section.member .container .isi h2 {
+        font-size: 5.5vw;
+    }
+    section.trainMember .container .isi h2 {
+        font-size: 5.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .navbar {
+        transition: ease 1s;
+    }
+    nav .navbar ul {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        transform: translateX(100%);
+        flex-direction: column;
+        height: 100vh;
+        width: 80%;
+        justify-content: left;
+        align-items: flex-start;
+        background-color: #9e131a;
+        transition: ease 0.6s;
+    }
+    nav ul li a.active {
+        color: rgb(173, 173, 173);
+    }
+    nav ul li a:hover {
+        color: rgb(173, 173, 173);
+    }
+    nav .navbar ul.muncul {
+        transform: translateX(0);
+    }
+    nav .navbar ul li {
+        margin: 20px 50px;
+    }
+    nav ul li a {
+        color: rgb(244, 244, 244);
+        text-shadow: 2px 2px 1px rgba(57, 57, 57, 0.6);
+        font-size: 18px;
+        font-weight: 400;
+    }
+    nav .navbar #menuToogle {
+        display: flex;
+        cursor: pointer;
+    }
+    nav ul li.closeNav {
+        display: flex;
+    }
+    footer {
+        position: relative;
+        padding-top: 19px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 19px;
+        background-color: #3d3d3d;
+    }
+    section.member .container .isi h2 {
+        font-size: 5.8vw;
+    }
+    section.trainMember .container .isi h2 {
+        font-size: 5.8vw;
+    }
+    footer .container p {
+        font-size: 1.2vw;
+        font-weight: 200;
+        color: #aeaeae;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    footer .container p svg {
+        width: 1vw;
+        height: 1vw;
+    }
+}
+
+@media (max-width: 576px) {
+    nav .navbar {
+        transition: ease 1s;
+    }
+    nav .navbar ul {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        transform: translateX(100%);
+        flex-direction: column;
+        height: 100vh;
+        width: 80%;
+        justify-content: left;
+        align-items: flex-start;
+        transition: ease 0.6s;
+    }
+    nav ul li a:hover {
+        color: rgb(194, 194, 194);
+    }
+    nav .navbar ul.muncul {
+        transform: translateX(0);
+    }
+    nav .navbar ul li {
+        margin: 20px 50px;
+    }
+    nav ul li a {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+    nav .navbar #menuToogle {
+        display: flex;
+        cursor: pointer;
+    }
+    nav ul li.closeNav {
+        display: flex;
+    }
+    section.member .container .isi2 ul {
+        width: 100%;
+        margin: 60px auto;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-gap: 23px 19px;
+    }
+    section.trainMember .container .isi2 ul {
+        width: 100%;
+        margin: 60px auto;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-gap: 23px 19px;
+    }
+    section.member .container .isi h2 {
+        font-size: 9.5vw;
+    }
+    section.trainMember .container .isi h2 {
+        font-size: 9.5vw;
+    }
+    footer {
+        position: relative;
+        padding-top: 17px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 17px;
+        background-color: #3d3d3d;
+    }
+    footer .container p {
+        font-size: 2.1vw;
+        font-weight: 200;
+        color: #aeaeae;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    footer .container p svg {
+        width: 1.9vw;
+        height: 1.9vw;
+    }
+}
