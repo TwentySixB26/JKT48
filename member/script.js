@@ -111,7 +111,6 @@ let feni = document.querySelector('section.member .container .isi2 ul li .feni')
 feni.addEventListener('click', function() {
     let audio = new Audio('../voice/feniii.mp3')
     audio.play()
-    console.log('halo')
 })
 
 let calista = document.querySelector('section.member .container .isi2 ul li .calista')
