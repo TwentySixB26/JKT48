@@ -109,7 +109,7 @@ mutthe.addEventListener('click', function() {
 
 let feni = document.querySelector('section.member .container .isi2 ul li .feni')
 feni.addEventListener('click', function() {
-    let audio = new Audio('../voice/feni.mp3')
+    let audio = new Audio('../voice/feniii.mp3')
     audio.play()
 })
 
