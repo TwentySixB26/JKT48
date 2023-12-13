@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apk Js</title>
+
+    <!-- my css  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="../img/JKT48.png">
+
+    <!-- font css  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- font navbar  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/JKT48.png" alt="" width="35px">
+                    <h4>JKT48</h4>
+                </a>
+            </div>
+            <ul>
+                <li class="closeNav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: msFilter;"> <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                </li>
+                <li><a href="../About Jkt/index.html">About Jkt48</a></li>
+                <li><a href="../member/index.html">Member</a></li>
+                <li><a href="../jkt merch/index.html">JktShop</a></li>
+                <li><a href="../album/index.html">Single</a></li>
+                <li><a href="index.html" class="active">Apk JS</a></li>
+                <li><a href="#">About me</a></li>
+            </ul>
+
+            <div id="menuToogle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform:msFilter;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                        <svg>
+                </div>
+            </div>
+        </nav>
+        <!-- akhir navbar  -->
+
+        <!-- hero  -->
+        <section class="hero">
+            <div class="container">
+                <div class="tiket">
+                    <div class="judul">
+                        <h2>Pemesanan Tiket</h2>
+                    </div>
+                    <div class="form">
+                        <form action="">
+                            <div class="email">
+                                <h6>Masukan Email Google*</h6>
+                                <input type="email" name="" id="email" required>
+                            </div>
+                            <div>
+                                <h6>Masukan Password*</h6>
+                                <input type="password" name="" id="password" required>
+                            </div>
+                            <div class="nama">
+                                <h6>Masukan Nama*</h6>
+                                <input type="text" name="" id="nama" required>
+                            </div>
+                            <div class="jumlah">
+                                <h6>Jumlah Tiket*</h6>
+                                <input type="number" name="" id="jumlah" required min="1" max="5">
+                            </div>
+                            <div class="radiobtn">
+                                <h6>Type :</h6>
+                                <ul>
+                                    <li>
+                                        <label for="biasa"> Biasa (350k)</label>
+                                        <input type="radio" name="tiket" id="biasa" value="350000">
+                                    </li>
+                                    <li>
+                                        <label for="vip"> VIP (550k)</label>
+                                        <input type="radio" name="tiket" id="vip" value="550000">
+                                    </li>
+                                    <li>
+                                        <label for="vvip"> VVIP (1000k)</label>
+                                        <input type="radio" name="tiket" id="vvip" value="1000000">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit">Beli</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </section>
+        <!-- akhir hero  -->
+
+
+        <!-- footer  -->
+        <footer>
+            <div class="container">
+                <p>"Terima kasih atas cinta dan dukungan Anda. JKT48 hadir karena Anda, dan bersama-sama kita ciptakan momen magis bersama <svg xmlns="http://www.w3.org/2000/svg" width="0.7vw" height="0.7vw" viewBox="0 0 24 20" style="fill: #aeaeae;transform: msFilter;"><path d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z"></path></svg>"
+                <p>
+                    Copyright Jkt48 | TwentySix26 <svg xmlns="http://www.w3.org/2000/svg" width="0.7vw" height="0.7vw" viewBox="0 0 24 20" style="fill: #aeaeae;transform: msFilter;"><path d="M6.217 12.486c1.964-.422 1.693-2.772 1.637-3.287-.096-.788-1.028-2.172-2.291-2.061-1.588.141-1.821 2.44-1.821 2.44-.216 1.06.515 3.33 2.475 2.908m3.646-3.944c1.084 0 1.959-1.251 1.959-2.792 0-1.537-.871-2.785-1.955-2.785-1.086 0-1.966 1.242-1.966 2.785s.88 2.792 1.965 2.792m4.671.186c1.454.195 2.38-1.355 2.568-2.53.188-1.166-.754-2.528-1.776-2.763-1.031-.237-2.303 1.411-2.431 2.484-.136 1.318.188 2.627 1.634 2.813m5.751 1.973c0-.562-.46-2.253-2.19-2.253-1.729 0-1.965 1.596-1.965 2.726 0 1.077.089 2.573 2.247 2.528 2.148-.052 1.913-2.438 1.913-3.002M18.1 15.626s-2.247-1.739-3.557-3.613c-1.776-2.768-4.304-1.64-5.144-.239-.845 1.418-2.153 2.306-2.339 2.544-.188.232-2.709 1.596-2.147 4.079.563 2.483 2.528 2.439 2.528 2.439s1.446.142 3.133-.234c1.686-.375 3.13.091 3.13.091s3.92 1.317 5.005-1.212c1.072-2.537-.61-3.847-.61-3.847"></path></svg>
+                </p>
+            </div>
+            </footer>
+            <!-- footer  -->
+            <script src="script.js"></script>
+</body>
+
+</html>
