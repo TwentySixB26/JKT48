@@ -1,0 +1,518 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 244, 244);
+}
+
+
+/* navbar  */
+
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px rgba(155, 155, 155, 0.6);
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    margin-bottom: 20vh;
+}
+
+nav .navbar {
+    display: flex;
+    padding: 17px 0px;
+    justify-content: space-around;
+    color: black;
+}
+
+nav .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a.active {
+    color: rgb(229, 59, 59);
+}
+
+nav ul li a:hover {
+    color: rgb(229, 59, 59);
+}
+
+nav ul li.closeNav {
+    display: none;
+    cursor: pointer;
+}
+
+nav .navbar .logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+nav .navbar .logo h4 {
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+nav .navbar #menuToogle {
+    display: none;
+    align-items: center;
+}
+
+
+/* akhir navbar  */
+
+
+/* isi  */
+
+
+/* 
+section.isi {
+    position: relative;
+    padding-top: 130px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+section.isi .container .judul h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold !important;
+    color: #2d2d2d;
+    text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+} */
+
+section.isi2 {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 160px;
+    overflow-x: hidden;
+    padding-left: 30px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+}
+
+section.isi2 .container {
+    display: flex;
+}
+
+section.isi2 .container .img {
+    flex: 0 0 50%;
+    margin-right: 30px;
+    overflow: hidden;
+    border-radius: 30px 30px;
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(-500px);
+    opacity: 0;
+    transition: ease 1.3s;
+}
+
+section.isi2 .container .img.muncul {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+section.isi2 .container .img img {
+    width: 100%;
+    height: 100%;
+    transition: ease 0.9s;
+}
+
+section.isi2 .container .img img:hover {
+    transform: scale(1.2);
+}
+
+section.isi2 .container .biodata {
+    flex: 0 0 50%;
+    margin-right: 10px;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(500px);
+    opacity: 0;
+    transition: ease 1.3s;
+}
+
+section.isi2 .container .biodata.muncul {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+section.isi2 .container .biodata p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-weight: 200;
+}
+
+section.isi2 .container .biodata h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Signika', sans-serif;
+    text-shadow: 2px 2px 1px rgba(92, 92, 92, 0.4);
+}
+
+section.isi2 .container .biodata h4 {
+    font-size: 23px;
+    font-weight: 200;
+    color: #7c7c7c;
+    font-family: 'Literata', serif;
+    margin-bottom: 20px;
+}
+
+section.isi2 .container .biodata .quotes {
+    color: #7d7d7d;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Average', serif;
+    font-size: 0.9pc;
+}
+
+
+/* akhir isi  */
+
+
+/* footer  */
+
+footer {
+    position: relative;
+    padding-top: 15px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #3d3d3d;
+}
+
+footer .container p {
+    font-size: 0.75vw;
+    font-weight: 200;
+    color: #aeaeae;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+
+/* akhir footer  */
+
+
+/* responsive  */
+
+@media (max-width: 992px) {
+    nav .navbar ul {
+        width: 50%;
+    }
+    /* isi  */
+    section.isi2 {
+        min-height: 100vh;
+        position: relative;
+        padding-top: 160px;
+        overflow-x: hidden;
+        padding-left: 30px;
+        padding-right: 90px;
+        padding-bottom: 50px;
+    }
+    section.isi2 .container .img {
+        flex: 0 0 40%;
+        margin-right: 30px;
+        overflow: hidden;
+        border-radius: 30px 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+    section.isi2 .container .biodata {
+        flex: 0 0 60%;
+        margin-right: 10px;
+        padding: 20px;
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    section.isi2 .container .biodata p {
+        font-size: 12px;
+    }
+    section.isi2 .container .biodata h1 {
+        font-size: 70px;
+    }
+    section.isi2 .container .biodata h4 {
+        font-size: 23px;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        margin-bottom: 20px;
+    }
+    section.isi2 .container .biodata .quotes {
+        color: #7d7d7d;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Average', serif;
+        font-size: 0.9pc;
+    }
+    /* footer  */
+    footer {
+        position: relative;
+        padding-top: 19px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 19px;
+        background-color: #3d3d3d;
+    }
+    footer .container p {
+        font-size: 1.2vw;
+        font-weight: 200;
+        color: #aeaeae;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    footer .container p svg {
+        width: 1vw;
+        height: 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .navbar {
+        transition: ease 1s;
+    }
+    nav .navbar ul {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        transform: translateX(100%);
+        flex-direction: column;
+        height: 100vh;
+        width: 80%;
+        justify-content: left;
+        align-items: flex-start;
+        background-color: #9e131a;
+        transition: ease 0.6s;
+    }
+    nav ul li a.active {
+        color: rgb(173, 173, 173);
+    }
+    nav ul li a:hover {
+        color: rgb(173, 173, 173);
+    }
+    nav .navbar ul.muncul {
+        transform: translateX(0);
+    }
+    nav .navbar ul li {
+        margin: 20px 50px;
+    }
+    nav ul li a {
+        color: rgb(244, 244, 244);
+        text-shadow: 2px 2px 1px rgba(57, 57, 57, 0.6);
+        font-size: 18px;
+        font-weight: 400;
+    }
+    nav .navbar #menuToogle {
+        display: flex;
+        cursor: pointer;
+    }
+    nav ul li.closeNav {
+        display: flex;
+    }
+    /* isi  */
+    section.isi2 {
+        min-height: 100vh;
+        position: relative;
+        padding-top: 160px;
+        overflow-x: hidden;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+    }
+    section.isi2 .container {
+        flex-direction: column;
+    }
+    section.isi2 .container .img {
+        flex: 0 0 100%;
+        overflow: hidden;
+        border-radius: 30px 30px;
+        width: 70%;
+        margin: auto;
+        overflow: hidden;
+    }
+    section.isi2 .container .img img {
+        transform: scale(1.2);
+    }
+    section.isi2 .container .img img:hover {
+        transform: scale(1.4);
+    }
+    section.isi2 .container .biodata {
+        flex: 0 0 100%;
+        overflow: hidden;
+        width: 100%;
+        margin-right: 0px;
+        padding-left: 0px;
+        /* background-color: #a68c8c; */
+        overflow: hidden;
+        text-align: center;
+        margin-top: 50px;
+    }
+    section.isi2 .container .biodata p {
+        font-size: 15px;
+    }
+    section.isi2 .container .biodata h1 {
+        font-size: 95px;
+    }
+    section.isi2 .container .biodata h4 {
+        font-size: 26px;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        margin-bottom: 20px;
+    }
+    section.isi2 .container .biodata .quotes {
+        color: #7d7d7d;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Average', serif;
+        font-size: 1pc;
+    }
+    footer {
+        position: relative;
+        padding-top: 19px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 19px;
+        background-color: #3d3d3d;
+    }
+    footer .container p {
+        font-size: 1.2vw;
+        font-weight: 200;
+        color: #aeaeae;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    footer .container p svg {
+        width: 1vw;
+        height: 1vw;
+    }
+}
+
+@media (max-width: 576px) {
+    nav .navbar {
+        transition: ease 1s;
+    }
+    nav .navbar ul {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        transform: translateX(100%);
+        flex-direction: column;
+        height: 100vh;
+        width: 80%;
+        justify-content: left;
+        align-items: flex-start;
+        transition: ease 0.6s;
+    }
+    nav ul li a:hover {
+        color: rgb(194, 194, 194);
+    }
+    nav .navbar ul.muncul {
+        transform: translateX(0);
+    }
+    nav .navbar ul li {
+        margin: 20px 50px;
+    }
+    nav ul li a {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+    nav .navbar #menuToogle {
+        display: flex;
+        cursor: pointer;
+    }
+    nav ul li.closeNav {
+        display: flex;
+    }
+    /* isi  */
+    section.isi2 {
+        padding-bottom: 0px;
+    }
+    section.isi2 .container .img {
+        flex: 0 0 100%;
+        overflow: hidden;
+        border-radius: 30px 30px;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    section.isi2 .container .biodata {
+        flex: 0 0 100%;
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 50px;
+        text-align: left;
+        padding-right: 5px;
+        padding-left: 5px;
+        box-sizing: border-box;
+    }
+    section.isi2 .container .biodata p {
+        font-size: 14px;
+    }
+    section.isi2 .container .biodata h1 {
+        font-size: 57px;
+    }
+    section.isi2 .container .biodata h4 {
+        font-size: 20px;
+        font-weight: 200;
+        color: #7c7c7c;
+        font-family: 'Literata', serif;
+        margin-bottom: 18px;
+        margin-top: 18px;
+        line-height: 30px;
+    }
+    section.isi2 .container .biodata .quotes {
+        color: #7d7d7d;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Average', serif;
+        font-size: 12px;
+    }
+    footer {
+        position: relative;
+        padding-top: 17px;
+        overflow-x: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 17px;
+        background-color: #3d3d3d;
+    }
+    footer .container p {
+        font-size: 2.1vw;
+        font-weight: 200;
+        color: #aeaeae;
+        font-family: 'Literata', serif;
+        text-align: center;
+    }
+    footer .container p svg {
+        width: 1.9vw;
+        height: 1.9vw;
+    }
+}
