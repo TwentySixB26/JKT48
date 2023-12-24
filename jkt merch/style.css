@@ -351,6 +351,12 @@ footer .container p {
     nav ul li.closeNav {
         display: flex;
     }
+    section.shop {
+        padding-top: 130px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
     section.shop .container .isi {
         width: 60%;
         margin: auto;
@@ -362,6 +368,59 @@ footer .container p {
         font-weight: bold !important;
         color: #2d2d2d;
         text-shadow: 2px 2px 1px rgba(143, 143, 143, 0.4);
+    }
+    section.shop .container .isi2 ul {
+        width: 90%;
+        margin: 60px auto;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-gap: 23px 19px;
+    }
+    section.shop .container .isi2 ul li .merch .judul h3 {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: italic;
+        color: #2d2d2d;
+    }
+    section.shop .container .isi2 ul li .merch .judul h5 {
+        font-family: 'Cabin', sans-serif;
+        margin-top: 3px;
+        font-size: 13px;
+        font-weight: 600;
+        font-style: italic;
+        color: #cd2828;
+    }
+    section.shop .container .isi2 ul li .merch .deksripsi {
+        margin-top: 15px;
+        padding: 0px 12px;
+        margin-bottom: 20px;
+    }
+    section.shop .container .isi2 ul li .merch .deksripsi .rating,
+    section.shop .container .isi2 ul li .merch .deksripsi .r1,
+    section.shop .container .isi2 ul li .merch .deksripsi .r2 {
+        font-size: 11px;
+    }
+    section.shop .container .isi2 ul li .merch .deksripsi svg {
+        width: 9.4px;
+        height: 9.4px;
+    }
+    section.shop .container .isi2 ul li .merch .deksripsi .btn {
+        margin-top: 5px;
+    }
+    section.shop .container .isi2 ul li .merch .deksripsi .btn button {
+        margin-top: 6px;
+        width: 100%;
+        padding: 4px;
+        cursor: pointer;
+        font-size: 8.5px;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: 1px solid orangered;
+        color: orangered;
+        text-decoration: none;
+        border-radius: 4px;
     }
     footer {
         position: relative;
