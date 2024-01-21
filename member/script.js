@@ -145,8 +145,6 @@ shani.addEventListener('click', function() {
     audio.play()
 })
 
-
-
 let lia = document.querySelector('section.member .container .isi2 ul li .aurellia')
 lia.addEventListener('click', function() {
     let audio = new Audio('../voice/lia.mp3')
