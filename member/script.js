@@ -3,6 +3,8 @@ let navbar = document.querySelector(' nav .navbar ul')
 let closeNav = document.querySelector('.closeNav')
 
 
+alert(`click member untuk jiko`);
+
 menuToogle.addEventListener('click', function() {
     navbar.classList.toggle('muncul')
 })
