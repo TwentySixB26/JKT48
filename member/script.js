@@ -145,13 +145,9 @@ shani.addEventListener('click', function() {
     audio.play()
 })
 
-let yessica = document.querySelector('section.member .container .isi2 ul li .yessica')
-yessica.addEventListener('click', function() {
-    let audio = new Audio('../voice/yessica.mp3')
-    audio.play()
-})
 
-let lia = document.querySelector('section.member .container .isi2 ul li .lia')
+
+let lia = document.querySelector('section.member .container .isi2 ul li .aurellia')
 lia.addEventListener('click', function() {
     let audio = new Audio('../voice/lia.mp3')
     audio.play()
