@@ -335,3 +335,40 @@ nayla.addEventListener('click', function() {
     let audio = new Audio('../voice/Nayla Suji.mp3')
     audio.play()
 })
+
+let nina = document.querySelector('section.trainMember .container .isi2 ul li .nina')
+nina.addEventListener('click', function() {
+    let audio = new Audio('../voice/Nina Tutachia.mp3')
+    audio.play()
+})
+
+let oline = document.querySelector('section.trainMember .container .isi2 ul li .oline')
+oline.addEventListener('click', function() {
+    let audio = new Audio('../voice/Oline Manuel.mp3')
+    audio.play()
+})
+
+let regina = document.querySelector('section.trainMember .container .isi2 ul li .regina')
+regina.addEventListener('click', function() {
+    let audio = new Audio('../voice/Regina.mp3')
+    audio.play()
+})
+
+
+let ribka = document.querySelector('section.trainMember .container .isi2 ul li .ribka')
+ribka.addEventListener('click', function() {
+    let audio = new Audio('../voice/Ribka Budiman.mp3')
+    audio.play()
+})
+
+let shabilqis = document.querySelector('section.trainMember .container .isi2 ul li .shabilqis')
+shabilqis.addEventListener('click', function() {
+    let audio = new Audio('../voice/Shabilqis Naila.mp3')
+    audio.play()
+})
+
+let victoria = document.querySelector('section.trainMember .container .isi2 ul li .victoria')
+victoria.addEventListener('click', function() {
+    let audio = new Audio('../voice/Victoria Kimberly.mp3')
+    audio.play()
+})
