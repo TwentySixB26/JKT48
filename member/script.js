@@ -180,3 +180,158 @@ ela.addEventListener('click', function() {
     let audio = new Audio('../voice/ela.mp3')
     audio.play()
 })
+
+
+
+// ================= trainer ============== 
+// gen 11 
+let alya = document.querySelector('section.trainMember .container .isi2 ul li .alya')
+alya.addEventListener('click', function() {
+    let audio = new Audio('../voice/Alya.mp3')
+    audio.play()
+})
+
+let anindya = document.querySelector('section.trainMember .container .isi2 ul li .anindya')
+anindya.addEventListener('click', function() {
+    let audio = new Audio('../voice/Anindya.mp3')
+    audio.play()
+})
+
+let cathy = document.querySelector('section.trainMember .container .isi2 ul li .cathy')
+cathy.addEventListener('click', function() {
+    let audio = new Audio('../voice/Cathy.mp3')
+    audio.play()
+})
+
+let elin = document.querySelector('section.trainMember .container .isi2 ul li .elin')
+elin.addEventListener('click', function() {
+    let audio = new Audio('../voice/Elin.mp3')
+    audio.play()
+})
+
+let chelsea = document.querySelector('section.trainMember .container .isi2 ul li .chelsea')
+chelsea.addEventListener('click', function() {
+    let audio = new Audio('../voice/Chelsea.mp3')
+    audio.play()
+})
+
+let cynthia = document.querySelector('section.trainMember .container .isi2 ul li .cynthia')
+cynthia.addEventListener('click', function() {
+    let audio = new Audio('../voice/Cynthia.mp3')
+    audio.play()
+})
+
+let danella = document.querySelector('section.trainMember .container .isi2 ul li .danella')
+danella.addEventListener('click', function() {
+    let audio = new Audio('../voice/Danella.mp3')
+    audio.play()
+})
+
+let daisy = document.querySelector('section.trainMember .container .isi2 ul li .daisy')
+daisy.addEventListener('click', function() {
+    let audio = new Audio('../voice/Daisy.mp3')
+    audio.play()
+})
+
+let gendis = document.querySelector('section.trainMember .container .isi2 ul li .gendis')
+gendis.addEventListener('click', function() {
+    let audio = new Audio('../voice/Gendis.mp3')
+    audio.play()
+})
+
+
+let gracie = document.querySelector('section.trainMember .container .isi2 ul li .gracie')
+gracie.addEventListener('click', function() {
+    let audio = new Audio('../voice/Gracie.mp3')
+    audio.play()
+})
+
+let greesel = document.querySelector('section.trainMember .container .isi2 ul li .greesel')
+greesel.addEventListener('click', function() {
+    let audio = new Audio('../voice/Greesel.mp3')
+    audio.play()
+})
+
+let jeane = document.querySelector('section.trainMember .container .isi2 ul li .jeane')
+jeane.addEventListener('click', function() {
+    let audio = new Audio('../voice/Jeane.mp3')
+    audio.play()
+})
+
+let michie = document.querySelector('section.trainMember .container .isi2 ul li .michie')
+michie.addEventListener('click', function() {
+    let audio = new Audio('../voice/Michie.mp3')
+    audio.play()
+})
+
+
+
+
+
+// Gen 12 
+let abigailR = document.querySelector('section.trainMember .container .isi2 ul li .abigailR')
+abigailR.addEventListener('click', function() {
+    let audio = new Audio('../voice/AbigailRachel.mp3')
+    audio.play()
+})
+
+let adeline = document.querySelector('section.trainMember .container .isi2 ul li .adeline')
+adeline.addEventListener('click', function() {
+    let audio = new Audio('../voice/Adeline Wijaya.mp3')
+    audio.play()
+})
+
+let aisa = document.querySelector('section.trainMember .container .isi2 ul li .aisa')
+aisa.addEventListener('click', function() {
+    let audio = new Audio('../voice/Aisa Maharani.mp3')
+    audio.play()
+})
+
+
+let aurhel = document.querySelector('section.trainMember .container .isi2 ul li .aurhel')
+aurhel.addEventListener('click', function() {
+    let audio = new Audio('../voice/Aurhel Alana.mp3')
+    audio.play()
+})
+
+let catherina = document.querySelector('section.trainMember .container .isi2 ul li .catherina')
+catherina.addEventListener('click', function() {
+    let audio = new Audio('../voice/Catherina Vallencia.mp3')
+    audio.play()
+})
+
+let fritzy = document.querySelector('section.trainMember .container .isi2 ul li .fritzy')
+fritzy.addEventListener('click', function() {
+    let audio = new Audio('../voice/Fritzy Rosmerian.mp3')
+    audio.play()
+})
+
+let hillary = document.querySelector('section.trainMember .container .isi2 ul li .hillary')
+hillary.addEventListener('click', function() {
+    let audio = new Audio('../voice/Hillary Abigail.mp3')
+    audio.play()
+})
+
+let jazzlyn = document.querySelector('section.trainMember .container .isi2 ul li .jazzlyn')
+jazzlyn.addEventListener('click', function() {
+    let audio = new Audio('../voice/Jazzlyn Trisha.mp3')
+    audio.play()
+})
+
+let letycia = document.querySelector('section.trainMember .container .isi2 ul li .letycia')
+letycia.addEventListener('click', function() {
+    let audio = new Audio('../voice/Letycia Moreen.mp3')
+    audio.play()
+})
+
+let michelleL = document.querySelector('section.trainMember .container .isi2 ul li .michelleL')
+michelleL.addEventListener('click', function() {
+    let audio = new Audio('../voice/Michelle Levia.mp3')
+    audio.play()
+})
+
+let nayla = document.querySelector('section.trainMember .container .isi2 ul li .nayla')
+nayla.addEventListener('click', function() {
+    let audio = new Audio('../voice/Nayla Suji.mp3')
+    audio.play()
+})
